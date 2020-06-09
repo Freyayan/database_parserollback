@@ -48,14 +48,14 @@
 基于gtid形式：
 
 ```
-./bingo2sql -h 10.104.113.41 -uwork -p'xx' -P 3306 -d db_admin -tzx_scores --start-file "mysql-bin.000002" -g 1bb1b861-f776-11e6-3306-010104113041:32
-./bingo2sql -h 10.104.113.41 -uwork -p'xx' -P 3306 -d db_admin -tzx_scores --start-file "mysql-bin.000002" -g 1bb1b861-f776-11e6-3306-010104113041:32-33
+./bingo2sql -h ip -uwork -p'xx' -P 3306 -d db_admin -tzx_scores --start-file "mysql-bin.000002" -g 1bb1b861-f776-11e6-3306-010104113041:32
+./bingo2sql -h ip -uwork -p'xx' -P 3306 -d db_admin -tzx_scores --start-file "mysql-bin.000002" -g 1bb1b861-f776-11e6-3306-010104113041:32-33
 ```
 
 回滚sql生成：
 
 ```
-./bingo2sql -h 10.104.113.41 -uwork -p'xx' -P 3306 -d db_admin -tzx_scores --start-file "mysql-bin.000002" -g 1bb1b861-f776-11e6-3306-010104113041:32-33 -B
+./bingo2sql -h ip -uwork -p'xx' -P 3306 -d db_admin -tzx_scores --start-file "mysql-bin.000002" -g 1bb1b861-f776-11e6-3306-010104113041:32-33 -B
 ```
 
 
